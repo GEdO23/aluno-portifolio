@@ -6,7 +6,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Materias - FIAP',
+  title: 'FIAP - Portifólio do Aluno',
   description: 'Website de um aluno que estuda na FIAP, utilizado para facilitar a vida do aluno em cálculos, fórmulas, atalhos, etc.',
 }
 

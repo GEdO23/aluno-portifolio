@@ -25,13 +25,8 @@ export default function Cabecalho() {
     return (
         <header className="w-full py-4 px-16 bg-white border-b border-black fixed top-0">
             <nav className="flex gap-16 items-center justify-between">
-                <Image
-                src={"/imgs/logo-fiap.png"}
-                alt="Logo"
-                width={100}
-                height={0}
-                className="h-8 w-28"
-                />
+                <Image src={"/imgs/logo-fiap.png"} alt="Logo" width={100} height={0} className="h-8 w-28" />
+
                 <ul className="flex flex-grow justify-between gap-8">
                     {cabecalhoLinks.map((link)=> (
                         <li key={link.id} className="flex flex-grow">
@@ -41,6 +36,7 @@ export default function Cabecalho() {
                         </li>
                     ))}
                 </ul>
+                
             </nav>
         </header>
     )
